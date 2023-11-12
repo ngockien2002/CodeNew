@@ -1,0 +1,17 @@
+.sun {
+    width: 100px;
+    height: 100px;
+    background-image: url('https://lens.google.com/search?ep=gsbubu&hl=vi&re=df&p=Acn1BYeC4i5xMbMlwFR5Px5fLfNs7mhI2XFqyLQZCmgTqu9NFb3msci9kXFpMVwky1ZiQh-xU9NAE3h5XrJZUalpFCpsPKMCQVra1lPOFbCyx8prmj5dPTlNesiYNQkYG4zFdjlleNrx_8x5v1atQqrSKj42r-BSSzYTpTHM9EwWDC54xuEh7rws-RCms6dpSiT4VTaszEiq1bq0EaLZPSiKkSEXtOqF-TRCmzmDhotQnhUufWnQ5TpMX7r1JxZUEQLI9UUMEmUwCkvZGeY4QF7tIA-Yspwuw58YTv_gZnxTbI704IUVE1SiV_-4n-XqIe8Ykojp8w%3D%3D#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKRGM1TkRObU1UbGpMVE13Wm1NdE5HVmxZUzA0TkRobExUZG1aVFE0Wm1Sa016QTVaaElmT0hjM1VtVllhMVpYUWpoVmQwMURZVjlYYUdaVlQxVXRSazVHTVd0Q1p3PT0iXQ==');
+    background-size: cover;
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: sunrise 3s linear infinite;
+  }
+  
+  @keyframes sunrise {
+    0% { bottom: -100px; }
+    50% { bottom: 50%; }
+    100% { bottom: 100%; }
+  }

@@ -1,0 +1,54 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Log in to HUMG </title>
+<head>
+<body>
+<form action ="" method="post" name="dangnhap" target="_blank">
+User Name : <input type="text" name="username" placeholder="input username" /><br>
+Password : <input type="password" name="password" placeholder="input password "/><br>
+Remember me : <input type="checkbox" name="rememberme"  /></br>
+<input type="submit" name="submit" value="Log in"/>
+<body>
+
+<form action="" method="post" name "register">
+ <h2> Lựa chọn chuyên ngành </h2>
+
+<select name "major">
+
+<option value="CNTTDH"> CNTT Dia hoc</option>
+
+<option value ="CNTTDH"> Công Nghề Phần Mềm </option>
+
+<option value ="CNTTDH"> Khoa học máy tinh</option> 
+<option value ="CNTTDH"> Tin học kinh tế </option>
+
+<option value ="CNTTDH">Hệ thống thông tin </option>
+
+
+
+</select><br>
+
+<h2> Lựa chọn học phần </h2>
+
+<select name="subjects" size="4" multiple>
+
+<option value="web">Phát triển ứng dụng web </option>
+ <option value="python">Python</option>
+
+<option value="web_python"> Phát triển ứng dụng web với Python </option>
+<option value "CSLT">Cơ sở lập trình</option>
+
+<option value="CSDL">Cơ sở dữ liệu</option> 
+</select><br>
+
+<h2> Ý kiễn phản hồi</h2>
+<textarea name ="message" rows="10" cols="30">
+<textarea><br>
+<input type="submit" name="submit" value="Submit"
+
+</form>
+</form>
+</body>
+</html>

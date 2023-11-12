@@ -1,0 +1,11 @@
+<table width="100%" border="1px">
+<tr><th colspan="2">TRƯỜNG ĐỘNG VẬT HỌC</th></tr>
+<tr>
+<td with="60%">HÌNH ẢNH</td>
+<td with="40%">THÔNG TIN CHI TIẾT</td>
+</tr>
+<tr>
+<td><img src="gia.jpg" width="200px"></td>
+<td> TÊN: CẬU VÀNG <br> GIƯỚI TÍNH: ĐỰC</td>
+</tr>
+</table>
